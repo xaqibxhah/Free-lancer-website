@@ -1,0 +1,220 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+
+
+/* header */
+
+header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),
+               url(images/images-removebg-preview.png);
+               background-size: cover;
+               color: white;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 70px;
+    font-family: 'Poppins', sans-serif;
+}
+.logo{
+    font-size: 2em;
+    letter-spacing: 2px;
+    font-weight: bold;
+
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    padding: 0.5rem 1rem;
+}
+.menu a:nth-child(5){
+    background: #6ab04c;
+    border-radius: 8px;
+    margin: 0 1rem;
+}
+.menu i{
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+}
+.menu a:hover{
+    background: #6ab04c;
+    border-radius: 8px;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    padding: 0 70px;
+}
+ .left h2{ 
+    /* flex-basis: 60%; */
+    font-family: 'Poppins', sans-serif;
+    color: #6ab04c;
+}
+.left h1{
+    font-family: 'Kalam', cursive;
+    font-size: 5em;
+}
+.left p{
+    font-family: 'Poppins', sans-serif;
+    line-height: 2.5rem;
+}
+#hire{
+    text-decoration: none;
+    background: #6ab04c;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    margin: 0 1rem;
+}
+#myp{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    border: 1px dashed white;
+    padding: 1rem 2rem;
+    margin: 0 1rem;
+}
+
+    /* about section start */
+
+#bio{
+    cursor: pointer;
+    padding: 150px 70px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    font-family: 'Poppins', sans-serif;
+}
+.leftbio{
+    flex-basis: 40%;
+}
+.rightbio{
+    flex-basis: 60%;
+}
+.leftbio img{
+    width: 100%;
+    
+    border-radius: 8px;
+}
+.rightbio{
+    text-align: right;
+    padding: 0 40px;
+}
+.rightbio p{
+    margin: 15px 0;
+    line-height: 2.5rem;
+}
+.rightbio h1{
+    font-size: 3rem;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    text-align: left;
+}
+#follow{
+    text-align: center;
+}
+#follow i{
+    color: #6ab04c;
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+}
+.link-h{
+    text-align: center;
+    margin-top: 3rem;
+}
+#cv{
+    text-decoration: none;
+    color: black;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    /* margin or padding pahla top or bottom or and wala left or right hota hai */
+    margin: 0 1rem;
+    border: 1px dashed grey;
+}
+
+/* about section :end */
+
+/*  */
+
+#services{
+    padding: 20rem 70px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.02);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.intro h1{
+    font-size: 3rem;
+}
+.card{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 3rem ;
+}
+.cardbody{
+    flex-basis: 30%;
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+}
+.cardbody h3{
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+}
+.cardbody i{
+    font-size: 2.5rem;
+    color: #6ab04c;
+}
+
+/* what i do for you (end) */
+
+/* gallery :start */
+.cardimg img{
+    width: 100%;
+    height: 12rem;
+}
+
+/* footer :start */
+footer{
+    background: #6ab04c;
+    color: white;
+    font-size: 2rem;
+    padding: 0.5rem;
+    font-family: 'Kalam', cursive;
+    text-align: center;
+}
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #6ab04c;
+}
+::-webkit-scrollbar-track{
+    background-color:  #ffffff;
+    width: 50px;
+}
+/* footer :end */
